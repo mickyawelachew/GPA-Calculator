@@ -3,7 +3,7 @@
 //3/7/2025
 
 //Purpose: it calculates the GPA of college students more accurately by using
-//their percentage grade rather than using the leter grade.
+//our percentage grade rather than using our leter grade.
 
 //It's main objective is to improve accuracy and prevent the loss of GPA points
 //which can accumulate in the end.
