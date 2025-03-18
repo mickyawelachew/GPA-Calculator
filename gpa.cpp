@@ -120,7 +120,8 @@ int main(){
   }//end of for loop
 
   
-  double b = 0.000, c = 0.000, gpa = 0.000;
+  double b = 0.000, gpa = 0.000;
+  int c = 0;
   for (int i = 0; i < classes; i++){
     b += calc1[i];
   }
@@ -129,7 +130,7 @@ int main(){
   }
   
   //data processing
-  gpa = (b / c);
+  gpa = (b / (double) c);
   gpa *= 4;
 
   //data outputs
